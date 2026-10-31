@@ -1,0 +1,6 @@
+# Minimum versions needed to run the experiments.
+# The reported results were produced with the exact versions listed in README.md.
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.2        # HistGradientBoostingClassifier(class_weight=...) needs >= 1.2
+tensorflow>=2.12         # only used by the autoencoder (CPU build is enough)
